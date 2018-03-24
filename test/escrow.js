@@ -21,7 +21,7 @@ contract('Escrow', async accounts => {
       web3.toWei(1, 'ether'),
     );
 
-    productCreatedEvent = store.ProductCreated();
+    const productCreatedEvent = store.ProductCreated();
     [{args: {id: productId}}] = await promisify(
       productCreatedEvent.get.bind(productCreatedEvent),
     )();
@@ -31,7 +31,7 @@ contract('Escrow', async accounts => {
       value: web3.toWei(1, 'ether'),
     });
 
-    orderCreatedEvent = store.OrderCreated();
+    const orderCreatedEvent = store.OrderCreated();
     [{args: {escrow}}] = await promisify(
       orderCreatedEvent.get.bind(orderCreatedEvent),
     )();

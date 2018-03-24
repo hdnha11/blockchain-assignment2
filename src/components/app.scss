@@ -1,3 +1,32 @@
-.app {
-  color: #4a4a4a;
+body {
+  background: #f0f2f5;
+}
+
+.logo {
+  height: 63px;
+  float: left;
+}
+
+.search {
+  float: left;
+  width: 400px;
+  height: 36px;
+  margin: 14px 0 14px 16px;
+
+  :global {
+    .ant-input {
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      border-radius: 0;
+    }
+
+    .ant-input,
+    .ant-input-search-icon {
+      color: #fefefe;
+    }
+  }
+}
+
+.mainNav {
+  margin: 20px 0 15px 0;
 }

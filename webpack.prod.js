@@ -8,7 +8,17 @@ module.exports = merge.smart(common, {
   module: {
     rules: [
       {
-        test: /\.scss$/,
+        test: /\.(css|scss)$/,
+        include: /node_modules/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'sass-loader'
+        ]
+      },
+      {
+        test: /\.(css|scss)$/,
+        exclude: /node_modules/,
         use: [
           MiniCssExtractPlugin.loader,
           {

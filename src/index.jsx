@@ -1,7 +1,20 @@
+import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import configureStore from './store/configureStore';
+import { initWeb3 } from './utils/web3';
 import App from './components/App';
 
-const mountElement = document.getElementById('app');
+initWeb3().then(() => {
+  const store = configureStore();
 
-ReactDOM.render(<App />, mountElement);
+  const mountElement = document.getElementById('app');
+
+  ReactDOM.render(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+    mountElement,
+  );
+});

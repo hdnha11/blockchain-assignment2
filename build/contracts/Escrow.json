@@ -100,7 +100,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 175,
-        "sourceUnit": 651,
+        "sourceUnit": 708,
         "src": "26:21:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -251,7 +251,7 @@
               "name": "now",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 664,
+              "referencedDeclaration": 721,
               "src": "169:3:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
@@ -352,7 +352,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 662,
+                              "referencedDeclaration": 719,
                               "src": "273:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -415,7 +415,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 662,
+                              "referencedDeclaration": 719,
                               "src": "296:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -475,7 +475,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 665,
+                      "referencedDeclaration": 722,
                       "src": "265:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -548,7 +548,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 662,
+                            "referencedDeclaration": 719,
                             "src": "443:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -607,7 +607,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 665,
+                      "referencedDeclaration": 722,
                       "src": "435:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -663,7 +663,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 662,
+                        "referencedDeclaration": 719,
                         "src": "475:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -960,7 +960,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Store_$650",
+                        "typeIdentifier": "t_contract$_Store_$707",
                         "typeString": "contract Store"
                       },
                       "typeName": {
@@ -968,10 +968,10 @@
                         "id": 72,
                         "name": "Store",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 650,
+                        "referencedDeclaration": 707,
                         "src": "631:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Store_$650",
+                          "typeIdentifier": "t_contract$_Store_$707",
                           "typeString": "contract Store"
                         }
                       },
@@ -1008,10 +1008,10 @@
                       "name": "Store",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 650,
+                      "referencedDeclaration": 707,
                       "src": "645:5:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Store_$650_$",
+                        "typeIdentifier": "t_type$_t_contract$_Store_$707_$",
                         "typeString": "type(contract Store)"
                       }
                     },
@@ -1025,7 +1025,7 @@
                     "nodeType": "FunctionCall",
                     "src": "645:12:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Store_$650",
+                      "typeIdentifier": "t_contract$_Store_$707",
                       "typeString": "contract Store"
                     }
                   },
@@ -1063,7 +1063,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 662,
+                          "referencedDeclaration": 719,
                           "src": "672:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1194,7 +1194,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 662,
+                            "referencedDeclaration": 719,
                             "src": "840:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -1332,7 +1332,7 @@
                               "name": "now",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 664,
+                              "referencedDeclaration": 721,
                               "src": "901:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
@@ -1376,10 +1376,10 @@
                                     "name": "Store",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 650,
+                                    "referencedDeclaration": 707,
                                     "src": "955:5:0",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_type$_t_contract$_Store_$650_$",
+                                      "typeIdentifier": "t_type$_t_contract$_Store_$707_$",
                                       "typeString": "type(contract Store)"
                                     }
                                   },
@@ -1390,10 +1390,10 @@
                                   "lValueRequested": false,
                                   "memberName": "ProductStatus",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 182,
+                                  "referencedDeclaration": 239,
                                   "src": "955:19:0",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_type$_t_enum$_ProductStatus_$182_$",
+                                    "typeIdentifier": "t_type$_t_enum$_ProductStatus_$239_$",
                                     "typeString": "type(enum Store.ProductStatus)"
                                   }
                                 },
@@ -1407,7 +1407,7 @@
                                 "referencedDeclaration": null,
                                 "src": "955:24:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_enum$_ProductStatus_$182",
+                                  "typeIdentifier": "t_enum$_ProductStatus_$239",
                                   "typeString": "enum Store.ProductStatus"
                                 }
                               }
@@ -1419,7 +1419,7 @@
                                   "typeString": "bytes32"
                                 },
                                 {
-                                  "typeIdentifier": "t_enum$_ProductStatus_$182",
+                                  "typeIdentifier": "t_enum$_ProductStatus_$239",
                                   "typeString": "enum Store.ProductStatus"
                                 }
                               ],
@@ -1432,7 +1432,7 @@
                                 "referencedDeclaration": 73,
                                 "src": "918:5:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_Store_$650",
+                                  "typeIdentifier": "t_contract$_Store_$707",
                                   "typeString": "contract Store"
                                 }
                               },
@@ -1443,10 +1443,10 @@
                               "lValueRequested": false,
                               "memberName": "updateProductStatus",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 649,
+                              "referencedDeclaration": 706,
                               "src": "918:25:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_enum$_ProductStatus_$182_$returns$_t_bool_$",
+                                "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_enum$_ProductStatus_$239_$returns$_t_bool_$",
                                 "typeString": "function (bytes32,enum Store.ProductStatus) external returns (bool)"
                               }
                             },
@@ -1508,7 +1508,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 664,
+                            "referencedDeclaration": 721,
                             "src": "736:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -1552,10 +1552,10 @@
                                   "name": "Store",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 650,
+                                  "referencedDeclaration": 707,
                                   "src": "790:5:0",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_type$_t_contract$_Store_$650_$",
+                                    "typeIdentifier": "t_type$_t_contract$_Store_$707_$",
                                     "typeString": "type(contract Store)"
                                   }
                                 },
@@ -1566,10 +1566,10 @@
                                 "lValueRequested": false,
                                 "memberName": "ProductStatus",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 182,
+                                "referencedDeclaration": 239,
                                 "src": "790:19:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_enum$_ProductStatus_$182_$",
+                                  "typeIdentifier": "t_type$_t_enum$_ProductStatus_$239_$",
                                   "typeString": "type(enum Store.ProductStatus)"
                                 }
                               },
@@ -1583,7 +1583,7 @@
                               "referencedDeclaration": null,
                               "src": "790:28:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_enum$_ProductStatus_$182",
+                                "typeIdentifier": "t_enum$_ProductStatus_$239",
                                 "typeString": "enum Store.ProductStatus"
                               }
                             }
@@ -1595,7 +1595,7 @@
                                 "typeString": "bytes32"
                               },
                               {
-                                "typeIdentifier": "t_enum$_ProductStatus_$182",
+                                "typeIdentifier": "t_enum$_ProductStatus_$239",
                                 "typeString": "enum Store.ProductStatus"
                               }
                             ],
@@ -1608,7 +1608,7 @@
                               "referencedDeclaration": 73,
                               "src": "753:5:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Store_$650",
+                                "typeIdentifier": "t_contract$_Store_$707",
                                 "typeString": "contract Store"
                               }
                             },
@@ -1619,10 +1619,10 @@
                             "lValueRequested": false,
                             "memberName": "updateProductStatus",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 649,
+                            "referencedDeclaration": 706,
                             "src": "753:25:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_enum$_ProductStatus_$182_$returns$_t_bool_$",
+                              "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_enum$_ProductStatus_$239_$returns$_t_bool_$",
                               "typeString": "function (bytes32,enum Store.ProductStatus) external returns (bool)"
                             }
                           },
@@ -1791,7 +1791,7 @@
                                     "name": "this",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 675,
+                                    "referencedDeclaration": 732,
                                     "src": "1074:4:0",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_contract$_Escrow_$174",
@@ -1972,7 +1972,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Store_$650",
+                        "typeIdentifier": "t_contract$_Store_$707",
                         "typeString": "contract Store"
                       },
                       "typeName": {
@@ -1980,10 +1980,10 @@
                         "id": 148,
                         "name": "Store",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 650,
+                        "referencedDeclaration": 707,
                         "src": "1162:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Store_$650",
+                          "typeIdentifier": "t_contract$_Store_$707",
                           "typeString": "contract Store"
                         }
                       },
@@ -2020,10 +2020,10 @@
                       "name": "Store",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 650,
+                      "referencedDeclaration": 707,
                       "src": "1176:5:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Store_$650_$",
+                        "typeIdentifier": "t_type$_t_contract$_Store_$707_$",
                         "typeString": "type(contract Store)"
                       }
                     },
@@ -2037,7 +2037,7 @@
                     "nodeType": "FunctionCall",
                     "src": "1176:12:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Store_$650",
+                      "typeIdentifier": "t_contract$_Store_$707",
                       "typeString": "contract Store"
                     }
                   },
@@ -2071,10 +2071,10 @@
                             "name": "Store",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 650,
+                            "referencedDeclaration": 707,
                             "src": "1235:5:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_Store_$650_$",
+                              "typeIdentifier": "t_type$_t_contract$_Store_$707_$",
                               "typeString": "type(contract Store)"
                             }
                           },
@@ -2085,10 +2085,10 @@
                           "lValueRequested": false,
                           "memberName": "ProductStatus",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 182,
+                          "referencedDeclaration": 239,
                           "src": "1235:19:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_enum$_ProductStatus_$182_$",
+                            "typeIdentifier": "t_type$_t_enum$_ProductStatus_$239_$",
                             "typeString": "type(enum Store.ProductStatus)"
                           }
                         },
@@ -2102,7 +2102,7 @@
                         "referencedDeclaration": null,
                         "src": "1235:29:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_ProductStatus_$182",
+                          "typeIdentifier": "t_enum$_ProductStatus_$239",
                           "typeString": "enum Store.ProductStatus"
                         }
                       }
@@ -2114,7 +2114,7 @@
                           "typeString": "bytes32"
                         },
                         {
-                          "typeIdentifier": "t_enum$_ProductStatus_$182",
+                          "typeIdentifier": "t_enum$_ProductStatus_$239",
                           "typeString": "enum Store.ProductStatus"
                         }
                       ],
@@ -2127,7 +2127,7 @@
                         "referencedDeclaration": 149,
                         "src": "1198:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Store_$650",
+                          "typeIdentifier": "t_contract$_Store_$707",
                           "typeString": "contract Store"
                         }
                       },
@@ -2138,10 +2138,10 @@
                       "lValueRequested": false,
                       "memberName": "updateProductStatus",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 649,
+                      "referencedDeclaration": 706,
                       "src": "1198:25:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_enum$_ProductStatus_$182_$returns$_t_bool_$",
+                        "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_enum$_ProductStatus_$239_$returns$_t_bool_$",
                         "typeString": "function (bytes32,enum Store.ProductStatus) external returns (bool)"
                       }
                     },
@@ -2178,7 +2178,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 675,
+                              "referencedDeclaration": 732,
                               "src": "1298:4:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_Escrow_$174",
@@ -2369,7 +2369,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 175,
-        "sourceUnit": 651,
+        "sourceUnit": 708,
         "src": "26:21:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2520,7 +2520,7 @@
               "name": "now",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 664,
+              "referencedDeclaration": 721,
               "src": "169:3:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
@@ -2621,7 +2621,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 662,
+                              "referencedDeclaration": 719,
                               "src": "273:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -2684,7 +2684,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 662,
+                              "referencedDeclaration": 719,
                               "src": "296:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -2744,7 +2744,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 665,
+                      "referencedDeclaration": 722,
                       "src": "265:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2817,7 +2817,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 662,
+                            "referencedDeclaration": 719,
                             "src": "443:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -2876,7 +2876,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 665,
+                      "referencedDeclaration": 722,
                       "src": "435:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2932,7 +2932,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 662,
+                        "referencedDeclaration": 719,
                         "src": "475:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -3229,7 +3229,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Store_$650",
+                        "typeIdentifier": "t_contract$_Store_$707",
                         "typeString": "contract Store"
                       },
                       "typeName": {
@@ -3237,10 +3237,10 @@
                         "id": 72,
                         "name": "Store",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 650,
+                        "referencedDeclaration": 707,
                         "src": "631:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Store_$650",
+                          "typeIdentifier": "t_contract$_Store_$707",
                           "typeString": "contract Store"
                         }
                       },
@@ -3277,10 +3277,10 @@
                       "name": "Store",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 650,
+                      "referencedDeclaration": 707,
                       "src": "645:5:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Store_$650_$",
+                        "typeIdentifier": "t_type$_t_contract$_Store_$707_$",
                         "typeString": "type(contract Store)"
                       }
                     },
@@ -3294,7 +3294,7 @@
                     "nodeType": "FunctionCall",
                     "src": "645:12:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Store_$650",
+                      "typeIdentifier": "t_contract$_Store_$707",
                       "typeString": "contract Store"
                     }
                   },
@@ -3332,7 +3332,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 662,
+                          "referencedDeclaration": 719,
                           "src": "672:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -3463,7 +3463,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 662,
+                            "referencedDeclaration": 719,
                             "src": "840:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -3601,7 +3601,7 @@
                               "name": "now",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 664,
+                              "referencedDeclaration": 721,
                               "src": "901:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
@@ -3645,10 +3645,10 @@
                                     "name": "Store",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 650,
+                                    "referencedDeclaration": 707,
                                     "src": "955:5:0",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_type$_t_contract$_Store_$650_$",
+                                      "typeIdentifier": "t_type$_t_contract$_Store_$707_$",
                                       "typeString": "type(contract Store)"
                                     }
                                   },
@@ -3659,10 +3659,10 @@
                                   "lValueRequested": false,
                                   "memberName": "ProductStatus",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 182,
+                                  "referencedDeclaration": 239,
                                   "src": "955:19:0",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_type$_t_enum$_ProductStatus_$182_$",
+                                    "typeIdentifier": "t_type$_t_enum$_ProductStatus_$239_$",
                                     "typeString": "type(enum Store.ProductStatus)"
                                   }
                                 },
@@ -3676,7 +3676,7 @@
                                 "referencedDeclaration": null,
                                 "src": "955:24:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_enum$_ProductStatus_$182",
+                                  "typeIdentifier": "t_enum$_ProductStatus_$239",
                                   "typeString": "enum Store.ProductStatus"
                                 }
                               }
@@ -3688,7 +3688,7 @@
                                   "typeString": "bytes32"
                                 },
                                 {
-                                  "typeIdentifier": "t_enum$_ProductStatus_$182",
+                                  "typeIdentifier": "t_enum$_ProductStatus_$239",
                                   "typeString": "enum Store.ProductStatus"
                                 }
                               ],
@@ -3701,7 +3701,7 @@
                                 "referencedDeclaration": 73,
                                 "src": "918:5:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_Store_$650",
+                                  "typeIdentifier": "t_contract$_Store_$707",
                                   "typeString": "contract Store"
                                 }
                               },
@@ -3712,10 +3712,10 @@
                               "lValueRequested": false,
                               "memberName": "updateProductStatus",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 649,
+                              "referencedDeclaration": 706,
                               "src": "918:25:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_enum$_ProductStatus_$182_$returns$_t_bool_$",
+                                "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_enum$_ProductStatus_$239_$returns$_t_bool_$",
                                 "typeString": "function (bytes32,enum Store.ProductStatus) external returns (bool)"
                               }
                             },
@@ -3777,7 +3777,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 664,
+                            "referencedDeclaration": 721,
                             "src": "736:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -3821,10 +3821,10 @@
                                   "name": "Store",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 650,
+                                  "referencedDeclaration": 707,
                                   "src": "790:5:0",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_type$_t_contract$_Store_$650_$",
+                                    "typeIdentifier": "t_type$_t_contract$_Store_$707_$",
                                     "typeString": "type(contract Store)"
                                   }
                                 },
@@ -3835,10 +3835,10 @@
                                 "lValueRequested": false,
                                 "memberName": "ProductStatus",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 182,
+                                "referencedDeclaration": 239,
                                 "src": "790:19:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_enum$_ProductStatus_$182_$",
+                                  "typeIdentifier": "t_type$_t_enum$_ProductStatus_$239_$",
                                   "typeString": "type(enum Store.ProductStatus)"
                                 }
                               },
@@ -3852,7 +3852,7 @@
                               "referencedDeclaration": null,
                               "src": "790:28:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_enum$_ProductStatus_$182",
+                                "typeIdentifier": "t_enum$_ProductStatus_$239",
                                 "typeString": "enum Store.ProductStatus"
                               }
                             }
@@ -3864,7 +3864,7 @@
                                 "typeString": "bytes32"
                               },
                               {
-                                "typeIdentifier": "t_enum$_ProductStatus_$182",
+                                "typeIdentifier": "t_enum$_ProductStatus_$239",
                                 "typeString": "enum Store.ProductStatus"
                               }
                             ],
@@ -3877,7 +3877,7 @@
                               "referencedDeclaration": 73,
                               "src": "753:5:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Store_$650",
+                                "typeIdentifier": "t_contract$_Store_$707",
                                 "typeString": "contract Store"
                               }
                             },
@@ -3888,10 +3888,10 @@
                             "lValueRequested": false,
                             "memberName": "updateProductStatus",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 649,
+                            "referencedDeclaration": 706,
                             "src": "753:25:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_enum$_ProductStatus_$182_$returns$_t_bool_$",
+                              "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_enum$_ProductStatus_$239_$returns$_t_bool_$",
                               "typeString": "function (bytes32,enum Store.ProductStatus) external returns (bool)"
                             }
                           },
@@ -4060,7 +4060,7 @@
                                     "name": "this",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 675,
+                                    "referencedDeclaration": 732,
                                     "src": "1074:4:0",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_contract$_Escrow_$174",
@@ -4241,7 +4241,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Store_$650",
+                        "typeIdentifier": "t_contract$_Store_$707",
                         "typeString": "contract Store"
                       },
                       "typeName": {
@@ -4249,10 +4249,10 @@
                         "id": 148,
                         "name": "Store",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 650,
+                        "referencedDeclaration": 707,
                         "src": "1162:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Store_$650",
+                          "typeIdentifier": "t_contract$_Store_$707",
                           "typeString": "contract Store"
                         }
                       },
@@ -4289,10 +4289,10 @@
                       "name": "Store",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 650,
+                      "referencedDeclaration": 707,
                       "src": "1176:5:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Store_$650_$",
+                        "typeIdentifier": "t_type$_t_contract$_Store_$707_$",
                         "typeString": "type(contract Store)"
                       }
                     },
@@ -4306,7 +4306,7 @@
                     "nodeType": "FunctionCall",
                     "src": "1176:12:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Store_$650",
+                      "typeIdentifier": "t_contract$_Store_$707",
                       "typeString": "contract Store"
                     }
                   },
@@ -4340,10 +4340,10 @@
                             "name": "Store",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 650,
+                            "referencedDeclaration": 707,
                             "src": "1235:5:0",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_Store_$650_$",
+                              "typeIdentifier": "t_type$_t_contract$_Store_$707_$",
                               "typeString": "type(contract Store)"
                             }
                           },
@@ -4354,10 +4354,10 @@
                           "lValueRequested": false,
                           "memberName": "ProductStatus",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 182,
+                          "referencedDeclaration": 239,
                           "src": "1235:19:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_enum$_ProductStatus_$182_$",
+                            "typeIdentifier": "t_type$_t_enum$_ProductStatus_$239_$",
                             "typeString": "type(enum Store.ProductStatus)"
                           }
                         },
@@ -4371,7 +4371,7 @@
                         "referencedDeclaration": null,
                         "src": "1235:29:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_enum$_ProductStatus_$182",
+                          "typeIdentifier": "t_enum$_ProductStatus_$239",
                           "typeString": "enum Store.ProductStatus"
                         }
                       }
@@ -4383,7 +4383,7 @@
                           "typeString": "bytes32"
                         },
                         {
-                          "typeIdentifier": "t_enum$_ProductStatus_$182",
+                          "typeIdentifier": "t_enum$_ProductStatus_$239",
                           "typeString": "enum Store.ProductStatus"
                         }
                       ],
@@ -4396,7 +4396,7 @@
                         "referencedDeclaration": 149,
                         "src": "1198:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Store_$650",
+                          "typeIdentifier": "t_contract$_Store_$707",
                           "typeString": "contract Store"
                         }
                       },
@@ -4407,10 +4407,10 @@
                       "lValueRequested": false,
                       "memberName": "updateProductStatus",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 649,
+                      "referencedDeclaration": 706,
                       "src": "1198:25:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_enum$_ProductStatus_$182_$returns$_t_bool_$",
+                        "typeIdentifier": "t_function_external_nonpayable$_t_bytes32_$_t_enum$_ProductStatus_$239_$returns$_t_bool_$",
                         "typeString": "function (bytes32,enum Store.ProductStatus) external returns (bool)"
                       }
                     },
@@ -4447,7 +4447,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 675,
+                              "referencedDeclaration": 732,
                               "src": "1298:4:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_Escrow_$174",
@@ -4617,5 +4617,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-03-23T19:49:11.895Z"
+  "updatedAt": "2018-03-24T21:23:24.808Z"
 }
