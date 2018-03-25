@@ -42,6 +42,9 @@ class Home extends Component {
               ))}
             </Row>
           ))}
+        {!products.length && (
+          <div className={styles.emptyView}>No product available</div>
+        )}
       </div>
     );
   }
