@@ -51,8 +51,8 @@ contract Store {
 
     event OrderCreated(
         bytes32 indexed productId,
-        address seller,
-        address buyer,
+        address indexed seller,
+        address indexed buyer,
         address escrow
     );
 

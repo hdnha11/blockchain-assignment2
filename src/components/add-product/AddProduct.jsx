@@ -1,13 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { Form, Input, InputNumber, Select, Button, Alert } from 'antd';
+import {
+  Icon,
+  Form,
+  Input,
+  InputNumber,
+  Select,
+  Button,
+  Alert,
+  Upload,
+} from 'antd';
+import ipfsAPI from 'ipfs-api';
 import * as productActionsCreator from '../../actions/products';
+import { IPFS_HOST, IPFS_PORT, IPFS_GATEWAY_PORT } from '../../config';
 import styles from './add-product.scss';
 
 const { Item: FormItem } = Form;
 const { TextArea } = Input;
 const { Option } = Select;
+const { Dragger } = Upload;
+const ipfs = ipfsAPI(IPFS_HOST, IPFS_PORT);
 
 class AddProduct extends React.Component {
   static propTypes = {
@@ -58,6 +71,19 @@ class AddProduct extends React.Component {
     });
   };
 
+  handleImageUpload = ({ file }) => {
+    const reader = new FileReader();
+    reader.onloadend = async () => {
+      const [response] = await ipfs.add([Buffer.from(reader.result)]);
+      this.setState({
+        imageLink: `http://${IPFS_HOST}:${IPFS_GATEWAY_PORT}/ipfs/${
+          response.hash
+        }`,
+      });
+    };
+    reader.readAsArrayBuffer(file);
+  };
+
   handleSubmit = event => {
     event.preventDefault();
     const { resetAddStatus, addProduct } = this.props;
@@ -100,11 +126,25 @@ class AddProduct extends React.Component {
           />
         </FormItem>
         <FormItem label="Image Link" {...formItemLayout}>
-          <Input
-            placeholder="Image URL"
-            value={imageLink}
-            onChange={this.handleChange('imageLink')}
-          />
+          <Input placeholder="Image URL" value={imageLink} disabled />
+        </FormItem>
+        <FormItem wrapperCol={{ span: 12, offset: 6 }}>
+          <Dragger
+            customRequest={this.handleImageUpload}
+            listType="picture"
+            showUploadList={false}
+          >
+            <p className="ant-upload-drag-icon">
+              <Icon type="inbox" />
+            </p>
+            <p className="ant-upload-text">
+              Click or drag file to this area to upload
+            </p>
+            <p className="ant-upload-hint">
+              The file will be uploaded to IPFS, a peer-to-peer hypermedia
+              protocol to make the web faster, safer, and more open.
+            </p>
+          </Dragger>
         </FormItem>
         <FormItem label="Price" {...formItemLayout}>
           <InputNumber

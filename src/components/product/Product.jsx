@@ -1,7 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Card, Icon } from 'antd';
+import { connect } from 'react-redux';
+import { Card } from 'antd';
 import { fromWei } from '../../utils/web3';
+import * as orderActionsCreator from '../../actions/orders';
+import IconText from '../icon-text';
 import styles from './product.scss';
 
 const { Meta } = Card;
@@ -13,30 +16,27 @@ const STATUS = {
   3: 'Sold',
 };
 
-const Product = ({ product }) => (
+const Product = ({ product, placeOrder }) => (
   <Card
     className={styles.product}
-    cover={
-      <img
-        alt={product.name}
-        src={product.imageLink}
-      />
-    }
+    cover={<img alt={product.name} src={product.imageLink} />}
     actions={[
       <span>{STATUS[product.status.toNumber()]}</span>,
       <span>{fromWei(product.price, 'finney').toString()} finney</span>,
-      <Icon type="shopping-cart" />,
+      <IconText
+        type="shopping-cart"
+        text="Buy"
+        onClick={() => placeOrder(product)}
+      />,
     ]}
   >
-    <Meta
-      title={product.name}
-      description={product.descLink}
-    />
+    <Meta title={product.name} description={product.descLink} />
   </Card>
 );
 
 Product.propTypes = {
   product: PropTypes.object.isRequired,
+  placeOrder: PropTypes.func.isRequired,
 };
 
-export default Product;
+export default connect(null, orderActionsCreator)(Product);

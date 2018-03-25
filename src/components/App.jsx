@@ -24,7 +24,7 @@ const App = () => (
         />
       </Header>
 
-      <Content style={{ padding: '0 50px' }}>
+      <Content className={styles.content}>
         <Menu
           className={styles.mainNav}
           mode="horizontal"
@@ -37,7 +37,7 @@ const App = () => (
           <MenuLink to="/about" label="About" />
         </Menu>
 
-        <div style={{ background: '#fff', padding: 24, minHeight: 480 }}>
+        <div className={styles.main}>
           <Route exact path="/" component={Home} />
           <Route path="/your-orders" component={YourOrders} />
           <Route path="/add-product" component={AddProduct} />
@@ -45,7 +45,7 @@ const App = () => (
         </div>
       </Content>
 
-      <Footer style={{ textAlign: 'center' }}>
+      <Footer className={styles.footer}>
         DApp Store ©2018 Created by Nha Hoang
       </Footer>
     </Layout>

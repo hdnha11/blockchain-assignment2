@@ -13,6 +13,19 @@ const all = (state = [], action) => {
     case types.ADD_PRODUCT_SUCCESS:
       return [...state, action.product];
 
+    case types.PRODUCT_UPDATED: {
+      const newState = [...state];
+      const oldProduct = newState.find(product => product.id === action.product.id);
+
+      if (!oldProduct) {
+        return state;
+      }
+
+      oldProduct.status = action.product.status;
+
+      return newState;
+    }
+
     default:
       return state;
   }

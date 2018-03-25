@@ -9,7 +9,7 @@ body {
 
 .search {
   float: left;
-  width: 400px;
+  width: calc(100% - 80px);
   height: 36px;
   margin: 14px 0 14px 16px;
 
@@ -29,4 +29,18 @@ body {
 
 .mainNav {
   margin: 20px 0 15px 0;
+}
+
+.content {
+  padding: 0 50px;
+}
+
+.main {
+  background: #ffffff;
+  padding: 24px;
+  min-height: 480px;
+}
+
+.footer {
+  text-align: center;
 }
