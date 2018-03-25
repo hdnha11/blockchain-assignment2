@@ -28,3 +28,5 @@ export const initWeb3 = () =>
   });
 
 export const getWeb3 = () => web3;
+
+export const fromWei = (wei, unit) => web3.fromWei(wei, unit);

@@ -28,7 +28,7 @@ contract Store {
     bytes32[] productIds;
 
     event ProductCreated(
-        bytes32 id,
+        bytes32 indexed id,
         uint index,
         string name,
         string category,
@@ -39,7 +39,7 @@ contract Store {
     );
 
     event ProductUpdated(
-        bytes32 id,
+        bytes32 indexed id,
         uint index,
         string name,
         string category,
@@ -50,7 +50,7 @@ contract Store {
     );
 
     event OrderCreated(
-        bytes32 productId,
+        bytes32 indexed productId,
         address seller,
         address buyer,
         address escrow

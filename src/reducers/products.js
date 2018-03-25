@@ -10,6 +10,9 @@ const all = (state = [], action) => {
     case types.FETCH_PRODUCTS_FAIL:
       return [];
 
+    case types.ADD_PRODUCT_SUCCESS:
+      return [...state, action.product];
+
     default:
       return state;
   }
@@ -43,10 +46,45 @@ const errorMessage = (state = null, action) => {
   }
 };
 
+const addStatus = (state = '', action) => {
+  switch (action.type) {
+    case types.ADD_PRODUCT:
+      return 'ADDING';
+
+    case types.ADD_PRODUCT_FAIL:
+      return 'FAIL';
+
+    case types.ADD_PRODUCT_SUCCESS:
+      return 'SUCCESS';
+
+    case types.RESET_ADD_STATUS:
+      return '';
+
+    default:
+      return state;
+  }
+};
+
+const addErrorMessage = (state = null, action) => {
+  switch (action.type) {
+    case types.ADD_PRODUCT_FAIL:
+      return action.message;
+
+    case types.ADD_PRODUCT:
+    case types.ADD_PRODUCT_SUCCESS:
+      return null;
+
+    default:
+      return state;
+  }
+};
+
 const products = combineReducers({
   all,
   isFetching,
   errorMessage,
+  addErrorMessage,
+  addStatus,
 });
 
 export default products;
