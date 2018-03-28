@@ -48,6 +48,10 @@ The following advanced user stories are optional. You're not required to do thes
 
 ## Development
 
+> *Prerequisites*
+> - [truffle](http://truffleframework.com/)
+> - [ipfs](https://ipfs.io/docs/install/)
+
 ### Build and Deploy the contract
 
 ```
@@ -55,8 +59,22 @@ $ truffle compile
 $ truffle migrate
 ```
 
+### Start IPFS deamon
+
+```
+$ ipfs daemon
+```
+
+> If you have problem with CORS access, run below command and restart your deamon:
+>```
+>ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin '["*"]'
+>ipfs config --json API.HTTPHeaders.Access-Control-Allow-Methods '["PUT", "GET", "POST"]'
+>ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials '["true"]'
+>```
+
 ### Start the Web App
 
 ```
+$ npm install
 $ npm run dev
 ```
